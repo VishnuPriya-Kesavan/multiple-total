@@ -4,6 +4,6 @@ $sum=0
 for i in {1..10..1};
 do
   num=$((3*$i))
-  sum=$((sum + num))
+  sum=$((sum + $num))
 done
 echo $sum
