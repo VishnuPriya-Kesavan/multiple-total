@@ -3,8 +3,7 @@
 $sum=0
 for i in {1..10};
 do
-  num=$((3*$i))
+  num=$((3 * $i))
   sum=$((sum + num))
 done
 echo $sum
-
