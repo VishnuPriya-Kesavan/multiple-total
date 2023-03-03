@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "total",
+      "setup": "chmod a+x total.sh",
+      "run": "./total.sh",
+      "input": "",
+      "output": "165",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
