@@ -1,10 +1,8 @@
 # Write a shell program to add the first 10 multiples of 3
 #!/bin/bash
 sum=0
-a=0
-while [$a -lt 10]
+for((i=1;i<=10;i++))
 do
-  num=$((3*$a))
-  sum=$((sum + num))
+sum=$((sum + i*3))
 done
 echo $sum
