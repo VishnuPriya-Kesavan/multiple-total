@@ -1,11 +1,8 @@
-
-
 #!/bin/bash
 sum=0
-a=0
-while  [$a -lt 10]
+for((i=1;i<=10;i++))
 do
-  sum=$((sum + a*3))
+  sum=$((sum + i*3))
 done
 echo $sum
 
