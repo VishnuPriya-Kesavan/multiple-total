@@ -6,4 +6,4 @@ do
   num=$((3*$i))
   sum=$((sum + num))
 done
-$echo "The sum of first 10 multiples of 3 is $sum";
+echo $sum
